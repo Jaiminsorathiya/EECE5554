@@ -1,4 +1,0 @@
-I have sucessfully completed the following steps
-1. Installed Ubuntu 20.04
-2. ROS Neotic
-3.Github (Posted; already posted my username to Piazza)
