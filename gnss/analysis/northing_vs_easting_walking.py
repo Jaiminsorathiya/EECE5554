@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import rosbag
-from gps_driver.msg import Customgps  # Assuming Customgps is your custom message format
+
 
 class UTMDataVisualizer:
     def __init__(self, bag_path):
@@ -27,7 +27,7 @@ class UTMDataVisualizer:
         plt.show()
 
 def main():
-    bag_path = '/home/jaiminsorathiya/EECE5554/gnss/analysis/moving.bag'
+    bag_path = '/home/jaiminsorathiya/EECE5554/gnss/data/moving.bag'
 
     visualizer = UTMDataVisualizer(bag_path)
     visualizer.read_utm_data()
