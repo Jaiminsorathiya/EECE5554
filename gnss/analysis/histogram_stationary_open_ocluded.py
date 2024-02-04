@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import rosbag
-from gps_driver.msg import Customgps  # Assuming Customgps is your custom message
+
 
 class UTMDataAnalyzer:
     def __init__(self, open_bag_path, occluded_bag_path):
