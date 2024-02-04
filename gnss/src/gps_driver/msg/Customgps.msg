@@ -1,0 +1,11 @@
+float64 latitude
+float64 longitude
+float64 altitude
+float64 utm_easting
+float64 utm_northing
+int32 zone
+string letter
+float64 hdop
+string gpgga_read
+string gprmc_read
+Header header
