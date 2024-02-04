@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import rosbag
-from gps_driver.msg import Customgps  # Assuming Customgps is your custom message format
 import matplotlib.dates as mdates
 from datetime import datetime
 
