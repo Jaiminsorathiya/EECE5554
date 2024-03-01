@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import allantools as atl
 
 # Define the path to your ROS bag file and the corresponding topic
-rosbag_path = '/home/jaiminsorathiya/EECE5554/imu/data/LocationC.bag'
+rosbag_path = '/home/jaiminsorathiya/EECE5554/imu/data/location_B.bag'
 topic = '/vectornav'
 
 # Initialize lists to store gyro data for each axis
